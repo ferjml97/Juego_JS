@@ -3,14 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, width=device-width " />
     <title>Naves Espaciales (GAME)</title>
-    <link rel="stylessheet" href="css/styles.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <script>
+        document.onkeydown = function(event) {
+            event = (event || window.event);
+            if (event.keyCode && (event.keyCode == 109 || event.keyCode == 107 ) || event.keyCode == 17 ) {
+                alert('Para mejorar la experiencia de juego está bloqueado hacer ZOOM en la página!');
+                return false;
+            } 
+        }
+    </script>
+
 </head>
 <body>
     <div class="container">
-        <canvas id="my_canvas" width="700" height="600"></canvas>
-            <h3 class="barra"></h3>
+        <h1 class="barra">SCORE:0</h1>
+        <canvas id="my_canvas" width="700" height="600"></canvas> 
+            
             <div>
                 <button class="div_left" id="reset_btn" style="background-color:#C00;">Reiniciar</button>
                 <button class="div_right" id="left_btn" style="background-color:#0C0;">Izquierda</button>
@@ -18,5 +30,19 @@
                 <button class="div_right" id="right_btn" style="background-color:#EE0;">Derecha</button>
             </div>
     </div>
+    <h2>JavaScript Window</h2>
+
+    <p id="demo"></p>
+
+    <script>
+    document.getElementById("demo").innerHTML =
+    "Browser inner window width: " + window.innerWidth + "px<br>" +
+    "Browser inner window height: " + window.innerHeight + "px";
+    </script>
+    <!--<script type="test/javascript" src="script.js"></script>
+        
+    
+    style="border: 2px solid #00C;
+-->
 </body>
 </html>
