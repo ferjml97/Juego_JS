@@ -1,91 +1,140 @@
+
 body{
     align-content: center;
+    background-image: url( '../img/back_space_1280.gif');
+}
+
+/*  CONTENEDOR  --- this is probably deleted*/
+.container{
     margin-left: 450px;
     max-width: 50%;
-    background-image: url( '../img/back_space_1280.gif');
-    /*opacity: 0.8;*/
-}
-
-
-.container{
     text-align: center;
     align-content: center;
-  /*  width: 50em;*/
-    /*background-image: url( '../img/back_space.gif');*/
-   /* opacity: 0.8;
-    margin: 0 auto;
-    max-width: 100%;
-    height: auto;*/
-    /*background-color:#CCC;*/
     width:700 px;
-    margin: 0 auto;
-    height: 600 px;
-    /*width: 800px;*/ 
+    height: 900 px;
     border: #000 1px solid ;
-    /*height:6.25em;*/
 }
+
+/*  CANVAS - area del juego*/
 #my_canvas{
     background: #000;
     border: #000 1px solid ;
-}
-.barra{
-    /*text-align: right;*/
-   /* margin-left: 10px;*/
-    background-color:#000;
-    color: white;
-    font-size: 20 px;
-    /*height: 100 px;
-    width: 100 px;
-    padding: 10 px;*/
-    /*margin: 9px 0;*/
-    /*box-sizing: border-box;*/
+    width:700 px;
+    height: 900 px;
 }
 
-/*
-.div{
-    border-radius: 0.313em;
-    bottom: 10px;
-}*/
-/*
-.contenedor{
-    /*background-color:#CCC;
-    width:100%;
-    height:6.25em;
-}*/
-/*
-.div_left{
-    height:5em;
-    width:20%;
-    float:left;
-    margin: 0.625em;
-}
-.div_right{
-    height:5em;
-    width:20%;
+/*  Datos de la partida  */
+.barra{
+    color: white;
+    font-size: 20 px;
     float:right;
-    margin: 0.625em;
-}*/
-.div_left{
-    color: red;
-    font-size: 40px;
-    background-color: #000;
-    cursor: pointer;
-    border-radius: 8px;
-    border: 2px solid blue;
+    margin-right: 150px;
+    padding: 60 px;
 }
-.div_right{
-    color: red;
-    font-size: 40px;
-    background-color: #000;
-    cursor: pointer;
-    border-radius: 8px;
-    border: 2px solid blue;
+
+/*  BOTONES LADO IZQUIERDO(LI)  */
+div.left{
+    position: fixed;
+    bottom: 0;
 }
-.div_left:hover{
+    /*  Boton LEFT - LI  */
+.btn_left{
+    width:150px;
+    height:150px;
+    background-color:#090a098a;
+    margin: 5px;
+    padding:10px;
+    background-image: url( '../img/left_128.png');
+    background-repeat:no-repeat;
+    background-position:center;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    border-radius: 200px;
+    font-size:11px;
+    line-height:32px;
+    float:left;
+    font-size: 40px;
+    cursor: pointer;
+}
+.btn_left:hover{
     background-color: #fff;
     color: black;
 }
-.div_right:hover{
+
+/*  BOTONES LADO DERECHO(LD)  */
+div.right{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+    /*  Boton RIGTH & HOVER - LD  */
+.btn_right{
+    width:150px;
+    height:150px;
+    background-color:#090a098a;
+    margin: 5px;
+    padding:10px;
+    background-image: url( '../img/right_128.png');
+    background-repeat:no-repeat;
+    background-position:center;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    border-radius: 200px;
+    font-size:11px;
+    line-height:32px;
+    font-size: 40px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.btn_right:hover{
+    background-color: #fff;
+    color: black;
+
+}
+    /*  Boton SHOOT & HOVER - LD  */
+.btn_shoot{
+    width:150px;
+    height:150px;
+    background-color:#090a098a;
+    margin: 5px;
+    padding:10px;
+    background-image: url( '../img/bullseye_128.png');
+    background-repeat:no-repeat;
+    background-position:center;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    border-radius: 200px;
+    font-size:11px;
+    line-height:32px;
+    cursor: pointer;
+    font-size: 40px;
+    margin-right: 10px;
+}
+.btn_shoot:hover{
     background-color: #fff;
     color: black;
 }
+    /*  Boton RESET & HOVER - LD  */
+.btn_reset{
+    width:150px;
+    height:150px;
+    background-color:#090a098a;
+    text-align: center;
+    background-image: url( '../img/reset_128.png');
+    background-repeat:no-repeat;
+    background-position:center;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    border-radius: 200px;
+    font-size:11px;
+    line-height:32px;
+    margin-bottom: 80px;
+    margin-left: 75px;
+    cursor: pointer;
+    
+}
+.btn_reset:hover{
+    background-color: #fff;
+    color: black;
+}
+
