@@ -14,17 +14,19 @@
   - **[Descripción](#Descripción)**
   - **[Enlaces de Interés](#Enlaces-de-Interés)**
 
-<img src="https://phaser.io/images/img.png" align="right" height="150" width="150" hspace="10">
-<!--<div style="text-align: justify;">  --->
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/245px-Unofficial_JavaScript_logo_2.svg.png" align="right" height="150" width="150" vspace="35" hspace="10">
+<div style="text-align: justify;">
 
 ### Descripción
 
-Los juegos desarrollados aquí están pensados para ser ejecutados en el navegador (preferiblemente Chrome) y pueden ser integrados en una página web. 
-// se tiene pensado adaptar el formato para que sean jugables en un dispositivo móvil
-<!--
+La Web se ha convertido en una plataforma viable no solo para crear impresionantes juegos de alta calidad, sino también para distruibuirlos.
+Gracias a las masivas mejoras de rendimiento en JavaScript  con tecnologia de compilación just-in-time y nuevas APIs, se pueden construir juegos que pueden correr en el navegador sin problemas.
+Los juegos desarrollados aquí están pensados para ser ejecutados en el navegador (preferiblemente Chrome).   
+// se tiene pensado adaptar el formato para que sean jugables en un dispositivo móvil.
+
 Desarrollo de Videojuegos con JS
-> 📌 El creador de Phaser es **@Richard Davey** &nbsp; ![Seguidores](https://img.shields.io/github/followers/photonstorm?label=Seguidores&style=social)
-	--->
+> 📌 El creador de JavaScript es **@Brendan Eich** &nbsp; ![Seguidores](https://img.shields.io/github/followers/BrendanEich?label=Seguidores&style=social)
+
 #### JavaScript
   JavaScript (JS) es un lenguaje de programación ligero, interpretado, o compilado justo-a-tiempo (just-in-time) con funciones de primera clase.
   Basado en prototipos, multiparadigma, de un solo hilo, dinámico, con soporte para programación orientada a objetos, imperativa y declarativa. 
@@ -37,6 +39,9 @@ Desarrollo de Videojuegos con JS
 
   
 ### Enlaces de Interés
+- [Más sobre JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript/ "JavaScript")
+- [Desarrollo de juegos para la Web](https://developer.mozilla.org/es/docs/Games/Introduction/ "Introduccion para desarrollo de juegos para la Web")
+- [Iconos](https://www.flaticon.com/authors/dave-gandy/ "Dave Gandy")
 
 
 <!--
