@@ -19,26 +19,32 @@
 
 </head>
 <body>
-    <div class="container">
-        <h1 class="barra">SCORE:0</h1>
-        <canvas id="my_canvas" width="700" height="600"></canvas> 
-            
+   
+        <h1 class="barra">SCORE:1920x975</h1>
+        <div class="left">
+            <button class="btn_left" id="left_btn"></button>
+        </div>
+        <div class="right">
             <div>
-                <button class="div_left" id="reset_btn" style="background-color:#C00;">Reiniciar</button>
-                <button class="div_right" id="left_btn" style="background-color:#0C0;">Izquierda</button>
-                <button class="div_right" id="shoot_btn" style="background-color:#00C;">Disparar</button>
-                <button class="div_right" id="right_btn" style="background-color:#EE0;">Derecha</button>
+                <button class="btn_reset" id="reset_btn" ></button>
             </div>
-    </div>
-    <h2>JavaScript Window</h2>
+            <button class="btn_shoot" id="shoot_btn" ></button>
+            <button class="btn_right" id="right_btn" ></button>
+        </div>
+        <div class="container">
+            <canvas id="my_canvas" width="800" height="950"></canvas> 
+        </div>
 
-    <p id="demo"></p>
+       
 
-    <script>
-    document.getElementById("demo").innerHTML =
-    "Browser inner window width: " + window.innerWidth + "px<br>" +
-    "Browser inner window height: " + window.innerHeight + "px";
-    </script>
+   
+    <!--
+        <div>Icons made by 
+            <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> 
+            from 
+            <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+        </div>
+    -->
     <!--<script type="test/javascript" src="script.js"></script>
         
     
