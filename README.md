@@ -39,21 +39,14 @@ Desarrollo de Videojuegos con JS
 ### Enlaces de Interés
 
 
-<form>
-<fieldset>
-<legend>Tu texto</legend>
-<div>Aquí puedes ir rellenandolo con lo que quieras mostrar dentro del fieldset</div>
-</fieldset>
-  </form>
-  
-<div style="title: eso"> </div>
-<h1>ESO
-</h1><details>
+<!--
+<details>
 <summary></summary>
   <p><h3>Enlaces</h3></p>
 <br>
 Thank's ❤ for this dropdown.
-</details>
+</details> <a>esoeszo</a>
+-->
 
 
 ---
