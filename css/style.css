@@ -1,35 +1,29 @@
 
 body{
-    align-content: center;
+   /* position: fixed;*/
     background-image: url( '../img/back_space_1280.gif');
-}
-
-/*  CONTENEDOR  --- this is probably deleted*/
-.container{
-    margin-left: 450px;
-    max-width: 50%;
-    text-align: center;
-    align-content: center;
-    width:700 px;
-    height: 900 px;
-    border: #000 1px solid ;
+    outline:none;
 }
 
 /*  CANVAS - area del juego*/
 #my_canvas{
-    background: #000;
+    /*padding:0;*/
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    /*background: #000;*/
     border: #000 1px solid ;
-    width:700 px;
-    height: 900 px;
+    bottom: 0;
+    left: 0;
 }
 
 /*  Datos de la partida  */
 .barra{
+    position: fixed;
     color: white;
     font-size: 20 px;
     float:right;
-    margin-right: 150px;
-    padding: 60 px;
+    margin-left: 75px;
 }
 
 /*  BOTONES LADO IZQUIERDO(LI)  */
@@ -39,12 +33,13 @@ div.left{
 }
     /*  Boton LEFT - LI  */
 .btn_left{
-    width:150px;
-    height:150px;
+    width:100px;
+    height:100px;
     background-color:#090a098a;
-    margin: 5px;
-    padding:10px;
+    margin: 40px;
+    /*padding:10px;*/
     background-image: url( '../img/left_128.png');
+    background-size: 80%;
     background-repeat:no-repeat;
     background-position:center;
     -webkit-border-radius: 200px;
@@ -69,12 +64,12 @@ div.right{
 }
     /*  Boton RIGTH & HOVER - LD  */
 .btn_right{
-    width:150px;
-    height:150px;
+    width:100px;
+    height:100px;
     background-color:#090a098a;
-    margin: 5px;
-    padding:10px;
+    margin: 40px;
     background-image: url( '../img/right_128.png');
+    background-size: 80%;
     background-repeat:no-repeat;
     background-position:center;
     -webkit-border-radius: 200px;
@@ -93,12 +88,12 @@ div.right{
 }
     /*  Boton SHOOT & HOVER - LD  */
 .btn_shoot{
-    width:150px;
-    height:150px;
+    width:100px;
+    height:100px;
     background-color:#090a098a;
-    margin: 5px;
-    padding:10px;
+    margin: 40px;
     background-image: url( '../img/bullseye_128.png');
+    background-size: 120%;
     background-repeat:no-repeat;
     background-position:center;
     -webkit-border-radius: 200px;
@@ -116,11 +111,12 @@ div.right{
 }
     /*  Boton RESET & HOVER - LD  */
 .btn_reset{
-    width:150px;
-    height:150px;
+    width:100px;
+    height:100px;
     background-color:#090a098a;
     text-align: center;
     background-image: url( '../img/reset_128.png');
+    background-size: 80%;
     background-repeat:no-repeat;
     background-position:center;
     -webkit-border-radius: 200px;
@@ -128,8 +124,9 @@ div.right{
     border-radius: 200px;
     font-size:11px;
     line-height:32px;
+    margin: 40px;
     margin-bottom: 80px;
-    margin-left: 75px;
+    margin-left: 95px;
     cursor: pointer;
     
 }
